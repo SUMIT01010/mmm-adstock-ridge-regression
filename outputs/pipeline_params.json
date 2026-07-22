@@ -1,0 +1,704 @@
+{
+  "lambdas": {
+    "tv_S": 0.05,
+    "ooh_S": 0.1,
+    "print_S": 0.2,
+    "facebook_S": 0.8,
+    "search_S": 0.8
+  },
+  "lambda_trace": [
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.05,
+      "val_mape": 0.050456750445001766
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.1,
+      "val_mape": 0.05231059316647122
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.2,
+      "val_mape": 0.05588964404760134
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.3,
+      "val_mape": 0.05824356265489918
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.4,
+      "val_mape": 0.06164370850314414
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.5,
+      "val_mape": 0.06580067885585575
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.6,
+      "val_mape": 0.0711273338420365
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.7,
+      "val_mape": 0.07854129047031748
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.8,
+      "val_mape": 0.07927861454498149
+    },
+    {
+      "sweep": 0,
+      "channel": "tv_S",
+      "lambda": 0.9,
+      "val_mape": 0.063210291453595
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.05,
+      "val_mape": 0.05158670331665048
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.1,
+      "val_mape": 0.05115531618420206
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.2,
+      "val_mape": 0.051057809356209495
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.3,
+      "val_mape": 0.04983026387027593
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.4,
+      "val_mape": 0.05015587184349103
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.5,
+      "val_mape": 0.050456750445001766
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.6,
+      "val_mape": 0.051246992692775696
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.7,
+      "val_mape": 0.052280577082730796
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.8,
+      "val_mape": 0.0537596720926834
+    },
+    {
+      "sweep": 0,
+      "channel": "ooh_S",
+      "lambda": 0.9,
+      "val_mape": 0.05408771628962159
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.05,
+      "val_mape": 0.046739618175637335
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.1,
+      "val_mape": 0.046942174320986
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.2,
+      "val_mape": 0.04742875919005278
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.3,
+      "val_mape": 0.04834393354423055
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.4,
+      "val_mape": 0.04971025053611718
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.5,
+      "val_mape": 0.04983026387027593
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.6,
+      "val_mape": 0.052952903800681704
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.7,
+      "val_mape": 0.05634199634696848
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.8,
+      "val_mape": 0.056919826851603496
+    },
+    {
+      "sweep": 0,
+      "channel": "print_S",
+      "lambda": 0.9,
+      "val_mape": 0.0555468844035261
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.05,
+      "val_mape": 0.052902289830993966
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.1,
+      "val_mape": 0.05536936284067649
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.2,
+      "val_mape": 0.05714758027890545
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.3,
+      "val_mape": 0.05406451094300071
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.4,
+      "val_mape": 0.04654492259391867
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.5,
+      "val_mape": 0.046739618175637335
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.6,
+      "val_mape": 0.046071162986203
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.7,
+      "val_mape": 0.04513437559101317
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.8,
+      "val_mape": 0.04466914129798763
+    },
+    {
+      "sweep": 0,
+      "channel": "facebook_S",
+      "lambda": 0.9,
+      "val_mape": 0.04493012461694865
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.05,
+      "val_mape": 0.054069995468909005
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.1,
+      "val_mape": 0.05280758641261084
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.2,
+      "val_mape": 0.04683183547649761
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.3,
+      "val_mape": 0.04652213088037303
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.4,
+      "val_mape": 0.04524089102855513
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.5,
+      "val_mape": 0.04466914129798763
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.6,
+      "val_mape": 0.04736881925032789
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.7,
+      "val_mape": 0.04861519846314905
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.8,
+      "val_mape": 0.04775819001973919
+    },
+    {
+      "sweep": 0,
+      "channel": "search_S",
+      "lambda": 0.9,
+      "val_mape": 0.0481207052223827
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.05,
+      "val_mape": 0.04466914129798763
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.1,
+      "val_mape": 0.04505315951421005
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.2,
+      "val_mape": 0.048480501939879725
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.3,
+      "val_mape": 0.053542267957034984
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.4,
+      "val_mape": 0.05918319141120108
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.5,
+      "val_mape": 0.0646080281757447
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.6,
+      "val_mape": 0.07106855838378903
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.7,
+      "val_mape": 0.07583596515500371
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.8,
+      "val_mape": 0.07402673356677654
+    },
+    {
+      "sweep": 1,
+      "channel": "tv_S",
+      "lambda": 0.9,
+      "val_mape": 0.06715836073047365
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.05,
+      "val_mape": 0.04462506058010775
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.1,
+      "val_mape": 0.044188959744542886
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.2,
+      "val_mape": 0.044483234464171496
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.3,
+      "val_mape": 0.04466914129798763
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.4,
+      "val_mape": 0.044392680529141956
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.5,
+      "val_mape": 0.045196550379137855
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.6,
+      "val_mape": 0.04644698018233776
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.7,
+      "val_mape": 0.04697253971572685
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.8,
+      "val_mape": 0.046349496199330556
+    },
+    {
+      "sweep": 1,
+      "channel": "ooh_S",
+      "lambda": 0.9,
+      "val_mape": 0.04520628347194212
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.05,
+      "val_mape": 0.044188959744542886
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.1,
+      "val_mape": 0.044082630701284174
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.2,
+      "val_mape": 0.043783154308771416
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.3,
+      "val_mape": 0.04400338476964366
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.4,
+      "val_mape": 0.04513552347469656
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.5,
+      "val_mape": 0.04669199234820266
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.6,
+      "val_mape": 0.04918526656578015
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.7,
+      "val_mape": 0.05314765433580968
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.8,
+      "val_mape": 0.05419454957302827
+    },
+    {
+      "sweep": 1,
+      "channel": "print_S",
+      "lambda": 0.9,
+      "val_mape": 0.05430876687022472
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.05,
+      "val_mape": 0.053524515998385216
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.1,
+      "val_mape": 0.056053116141684976
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.2,
+      "val_mape": 0.05828316071228364
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.3,
+      "val_mape": 0.0553100669062626
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.4,
+      "val_mape": 0.04717428007975262
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.5,
+      "val_mape": 0.04708024465630654
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.6,
+      "val_mape": 0.04608206292609378
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.7,
+      "val_mape": 0.04456550067738578
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.8,
+      "val_mape": 0.043783154308771416
+    },
+    {
+      "sweep": 1,
+      "channel": "facebook_S",
+      "lambda": 0.9,
+      "val_mape": 0.04634620520163107
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.05,
+      "val_mape": 0.05587382895891431
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.1,
+      "val_mape": 0.053047416275257074
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.2,
+      "val_mape": 0.048192518335622776
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.3,
+      "val_mape": 0.04751265370566832
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.4,
+      "val_mape": 0.04608660011695515
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.5,
+      "val_mape": 0.043783154308771416
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.6,
+      "val_mape": 0.04409809247983708
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.7,
+      "val_mape": 0.044260953146825224
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.8,
+      "val_mape": 0.04359715218459996
+    },
+    {
+      "sweep": 1,
+      "channel": "search_S",
+      "lambda": 0.9,
+      "val_mape": 0.04545684294185256
+    }
+  ],
+  "ridge_alpha": 0.3,
+  "ridge_alpha_scores": {
+    "0.01": 0.043317198296053926,
+    "0.03": 0.0432763637783314,
+    "0.1": 0.04313827688947243,
+    "0.3": 0.04278093379364495,
+    "1": 0.04359715218459996,
+    "3": 0.04659530801048063,
+    "10": 0.05304780823992315,
+    "30": 0.05926074437611052,
+    "100": 0.05915262337621334,
+    "300": 0.07883698570333322,
+    "1000": 0.14935870087848724
+  },
+  "hill_params": {
+    "tv_S": {
+      "alpha": 0.6146318125627435,
+      "K": 111842.14563313301,
+      "converged": true
+    },
+    "ooh_S": {
+      "alpha": 1.499564694201235,
+      "K": 1080.0259862984979,
+      "converged": true
+    },
+    "print_S": {
+      "alpha": 2.999999999999964,
+      "K": 11611.690621272162,
+      "converged": true
+    },
+    "facebook_S": {
+      "alpha": 2.9999999999999996,
+      "K": 21305.776817454353,
+      "converged": true
+    },
+    "search_S": {
+      "alpha": 2.4247829133100973,
+      "K": 30712.86324207282,
+      "converged": true
+    }
+  },
+  "feature_names": [
+    "tv_S_hill",
+    "ooh_S_hill",
+    "print_S_hill",
+    "facebook_S_hill",
+    "search_S_hill",
+    "trend",
+    "facebook_I",
+    "search_clicks_P",
+    "competitor_sales_B",
+    "newsletter",
+    "event_event1",
+    "event_event2",
+    "month_2",
+    "month_3",
+    "month_4",
+    "month_5",
+    "month_6",
+    "month_7",
+    "month_8",
+    "month_9",
+    "month_10",
+    "month_11",
+    "month_12"
+  ],
+  "baseline_features": [
+    "tv_S",
+    "ooh_S",
+    "print_S",
+    "facebook_S",
+    "search_S",
+    "trend",
+    "facebook_I",
+    "search_clicks_P",
+    "competitor_sales_B",
+    "newsletter",
+    "event_event1",
+    "event_event2",
+    "month_2",
+    "month_3",
+    "month_4",
+    "month_5",
+    "month_6",
+    "month_7",
+    "month_8",
+    "month_9",
+    "month_10",
+    "month_11",
+    "month_12"
+  ],
+  "train_end_week": 150,
+  "val_end_week": 170
+}

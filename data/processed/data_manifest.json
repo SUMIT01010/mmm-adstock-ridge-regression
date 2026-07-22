@@ -1,0 +1,13 @@
+{
+  "dt_simulated_weekly": {
+    "file": "data/raw/dt_simulated_weekly.csv",
+    "sha256": "d541cfa92ca68fbda03ce6c987733e996b3abf44a95f2a32ce6836b9f8258cf1",
+    "source": "https://raw.githubusercontent.com/facebookexperimental/Robyn/main/python/src/robyn/tutorials/resources/dt_simulated_weekly.csv",
+    "shape": [
+      208,
+      12
+    ],
+    "date_min": "2015-11-23",
+    "date_max": "2019-11-11"
+  }
+}

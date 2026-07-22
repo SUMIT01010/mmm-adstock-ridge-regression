@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+book/*.log
+book/*.aux
+book/*.out
+book/*.toc

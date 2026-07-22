@@ -1,0 +1,59 @@
+{
+  "holdout_weeks": {
+    "start": 171,
+    "end": 208,
+    "n": 38
+  },
+  "targets": {
+    "adj_r2": 0.85,
+    "mape": 0.08
+  },
+  "adstock_ridge": {
+    "adj_r2": 0.6103543731669959,
+    "mape": 0.12704386781183377,
+    "meets_adj_r2_target": false,
+    "meets_mape_target": false,
+    "ridge_alpha": 0.3,
+    "adstock_lambdas": {
+      "tv_S": 0.05,
+      "ooh_S": 0.1,
+      "print_S": 0.2,
+      "facebook_S": 0.8,
+      "search_S": 0.8
+    },
+    "hill_params": {
+      "tv_S": {
+        "alpha": 0.6146318125627435,
+        "K": 111842.14563313301,
+        "converged": true
+      },
+      "ooh_S": {
+        "alpha": 1.499564694201235,
+        "K": 1080.0259862984979,
+        "converged": true
+      },
+      "print_S": {
+        "alpha": 2.999999999999964,
+        "K": 11611.690621272162,
+        "converged": true
+      },
+      "facebook_S": {
+        "alpha": 2.9999999999999996,
+        "K": 21305.776817454353,
+        "converged": true
+      },
+      "search_S": {
+        "alpha": 2.4247829133100973,
+        "K": 30712.86324207282,
+        "converged": true
+      }
+    }
+  },
+  "raw_ols_baseline": {
+    "adj_r2": 0.6951005221086985,
+    "mape": 0.08638371662711629,
+    "meets_adj_r2_target": false,
+    "meets_mape_target": false
+  },
+  "comparison_note": "Adstock-Ridge underperforms raw OLS on pure holdout predictive MAPE/AdjR2 on this dataset (see TECHNICAL_JOURNEY.md Iteration 3 for the full investigation) -- reported honestly, not hidden. The brief's case for adstock+Hill is INTERPRETABILITY/misattribution-avoidance (raw OLS on collinear spend series produces unstable, sign-flipping coefficients), not necessarily lower holdout MAPE against a flexible unconstrained OLS fit; see outputs/diagnostics.json (VIF) for the raw-OLS misattribution evidence."
+}

@@ -1,0 +1,166 @@
+{
+  "raw_shape": [
+    208,
+    15
+  ],
+  "panel_shape": [
+    208,
+    26
+  ],
+  "raw_column_profile": {
+    "DATE": {
+      "dtype_raw": "str",
+      "n_missing": 0,
+      "pct_missing": 0.0
+    },
+    "revenue": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 0,
+      "pct_zero": 0.0,
+      "min": 672250.0,
+      "max": 3827520.0,
+      "mean": 1822142.7724358975
+    },
+    "tv_S": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 116,
+      "pct_zero": 0.5576923076923077,
+      "min": 0.0,
+      "max": 158046.573333333,
+      "mean": 14843.691217948714
+    },
+    "ooh_S": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 123,
+      "pct_zero": 0.5913461538461539,
+      "min": 0.0,
+      "max": 500361.6,
+      "mean": 43217.94102564102
+    },
+    "print_S": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 121,
+      "pct_zero": 0.5817307692307693,
+      "min": 0.0,
+      "max": 31922.3111111111,
+      "mean": 3728.632264957266
+    },
+    "facebook_I": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 106,
+      "pct_zero": 0.5096153846153846,
+      "min": 0.0,
+      "max": 59432757.6381927,
+      "mean": 8153414.998042198
+    },
+    "search_clicks_P": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 32,
+      "pct_zero": 0.15384615384615385,
+      "min": 0.0,
+      "max": 52188.1282144227,
+      "mean": 16945.206847242047
+    },
+    "search_S": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 32,
+      "pct_zero": 0.15384615384615385,
+      "min": 0.0,
+      "max": 17880.0,
+      "mean": 5915.512820512821
+    },
+    "competitor_sales_B": {
+      "dtype_raw": "int64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 0,
+      "pct_zero": 0.0,
+      "min": 2240235.0,
+      "max": 9984742.0,
+      "mean": 5538024.903846154
+    },
+    "facebook_S": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 107,
+      "pct_zero": 0.5144230769230769,
+      "min": 0.0,
+      "max": 15400.3914080076,
+      "mean": 2145.657826295471
+    },
+    "events": {
+      "dtype_raw": "str",
+      "n_missing": 0,
+      "pct_missing": 0.0
+    },
+    "newsletter": {
+      "dtype_raw": "float64",
+      "n_missing": 0,
+      "pct_missing": 0.0,
+      "n_zero": 0,
+      "pct_zero": 0.0,
+      "min": 301.0,
+      "max": 96236.0,
+      "mean": 22386.52366863905
+    }
+  },
+  "temporal_continuity": {
+    "n_weeks": 208,
+    "date_min": "2015-11-23",
+    "date_max": "2019-11-11",
+    "all_gaps_exactly_7_days": true,
+    "min_gap_days": 7,
+    "max_gap_days": 7
+  },
+  "media_channels": [
+    "tv_S",
+    "ooh_S",
+    "print_S",
+    "facebook_S",
+    "search_S"
+  ],
+  "extra_numeric_controls": [
+    "facebook_I",
+    "search_clicks_P",
+    "competitor_sales_B",
+    "newsletter"
+  ],
+  "decisions": [
+    "coerced DATE to datetime64[ns] (format %Y-%m-%d)",
+    "coerced revenue to numeric (float); 0 true NaN found",
+    "coerced tv_S to numeric (float); 0 true NaN found",
+    "coerced ooh_S to numeric (float); 0 true NaN found",
+    "coerced print_S to numeric (float); 0 true NaN found",
+    "coerced facebook_S to numeric (float); 0 true NaN found",
+    "coerced search_S to numeric (float); 0 true NaN found",
+    "coerced facebook_I to numeric (float); 0 true NaN found",
+    "coerced search_clicks_P to numeric (float); 0 true NaN found",
+    "coerced competitor_sales_B to numeric (float); 0 true NaN found",
+    "coerced newsletter to numeric (float); 0 true NaN found",
+    "tv_S: 116/208 weeks are genuine zero-spend (pulsed media) \u2014 kept as 0, NOT imputed; these are meaningful baseline observations",
+    "ooh_S: 123/208 weeks are genuine zero-spend (pulsed media) \u2014 kept as 0, NOT imputed; these are meaningful baseline observations",
+    "print_S: 121/208 weeks are genuine zero-spend (pulsed media) \u2014 kept as 0, NOT imputed; these are meaningful baseline observations",
+    "facebook_S: 107/208 weeks are genuine zero-spend (pulsed media) \u2014 kept as 0, NOT imputed; these are meaningful baseline observations",
+    "search_S: 32/208 weeks are genuine zero-spend (pulsed media) \u2014 kept as 0, NOT imputed; these are meaningful baseline observations",
+    "validated weekly continuity: 208 weeks, 2015-11-23 -> 2019-11-11, every consecutive gap == 7 days (no missing/duplicated weeks)",
+    "events: events=='na' -> is_event=False (206/208 weeks); 2 weeks flagged as promo/holiday events (['event1', 'event2']); one-hot event dummies kept alongside the boolean flag for finer signal",
+    "added month-of-year dummies (11, month=1 dropped as reference) and a linear trend index as seasonality/base-demand controls, appended to the panel",
+    "brief's 'Promo discount depth' and 'Price index' have no counterpart in the Robyn simulated panel; NOT fabricated \u2014 omitted, with its absorption risk (onto competitor_sales_B / seasonality / trend) noted in TECHNICAL_JOURNEY.md"
+  ],
+  "output_panel": "/Users/sumitsaurabh/Desktop/ADDITIONAL/Regression/data/processed/mmm_panel.parquet"
+}

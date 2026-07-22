@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "message": "Optimization terminated successfully",
+  "total_budget": 79029.59756289794,
+  "current_spend": {
+    "tv_S": 16559.0751372549,
+    "ooh_S": 51040.665098039215,
+    "print_S": 3970.260130718955,
+    "facebook_S": 2131.5187655123177,
+    "search_S": 5328.078431372548
+  },
+  "optimal_spend": {
+    "tv_S": 47898.98882816689,
+    "ooh_S": 3235.593048456543,
+    "print_S": 11910.780392156867,
+    "facebook_S": 5.432675670533362e-14,
+    "search_S": 15984.235294117643
+  },
+  "current_steady_state_response": 642861.2839353988,
+  "optimal_steady_state_response": 1303408.819704065,
+  "predicted_lift_pct": 102.75117700742496,
+  "betas": {
+    "tv_S": 1003016.8542126305,
+    "ooh_S": 53812.49865176479,
+    "print_S": 244005.03714841758,
+    "facebook_S": 47875.66696203724,
+    "search_S": 780501.5770156245
+  }
+}
